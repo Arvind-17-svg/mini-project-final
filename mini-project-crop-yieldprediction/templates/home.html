@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale=1.0>
+    <link rel="stylesheet" type="text/css"  target="_blank" href="style.css">
+    
+</head>
+    <body>
+        <h1>Mini-project</h1>
+        <p>members</p>
+        <ol>
+            <li>Arvind Ranganath R-122005010</li>
+            <li>Karthigeyan gj-122005062</li>
+            <li>Gnanaprakaasham s-122004078</li>
+            <li>Guide Name-DR Ramkumar(faculty of seee)</li>
+
+        </ol>
+
+        
+
+        <h1> Crop yield prediction</h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> First value :  <input type="text", name='N', placeholder="enter nitrogen content"> <br><br>
+            Second value :  <input type="text", name='P', placeholder="enter Phosporous content"> <br><br>
+            Third value :  <input type="text", name='K', placeholder="enter Potassium content"> <br><br>
+            Fourth value : <input type="text", name='temperature', placeholder="enter temperature"> <br><br><br>
+            Fifth value : <input type="text", name='humidity', placeholder="enter humidity"> <br><br><br>
+            Sixth value : <input type="text", name='ph', placeholder="enter ph value"> <br><br><br>
+            Seventh value : <input type="text", name='rainfall', placeholder="enter rainfall"> <br><br><br>
+            
+            
+
+            
+
+        </b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        
+        
+    
+
+    </body>
+</html>
